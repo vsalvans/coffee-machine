@@ -1,0 +1,31 @@
+
+.coffee-machine {
+  text-align: center;
+  background-color: #242424;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.drink-selector {
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coffee-machine-drink-button {
+  cursor: pointer;
+}
+
+.coffee-machine-drink-button:active {
+  transform: translateY(5px);
+  transition: all 0.2s;
+}
+
+.coffee-machine-drink-button img {
+  height: 120px;
+  width: 100px;
+}

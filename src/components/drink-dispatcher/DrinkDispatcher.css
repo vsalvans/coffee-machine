@@ -1,0 +1,27 @@
+.drink-dispatcher {
+  position: relative;
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@keyframes serve {
+  from {bottom: -80px;}
+  to {bottom: 0px;}
+}
+
+.drink-dispatcher .cup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation-name: serve;
+  animation-duration: 3s;
+}
+
+.drink-dispatcher .cup img {
+  width: 80px;
+  height: 80px;
+}

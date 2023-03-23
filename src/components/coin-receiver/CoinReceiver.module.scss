@@ -1,0 +1,58 @@
+.coin_receiver {
+    background-color: rgb(169, 177, 188);
+    width: 5em;
+    height: 5em;
+    position: relative;
+}
+
+.circle {
+    background-color: rgb(66, 73, 83);
+    width: 30px;
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 auto;
+}
+
+.coins {
+    opacity: 0;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 100px;
+    height: 30px;
+    flex-direction: row;
+    transition: all 1s;
+    transform: translate(0, 100px);
+}
+
+.coin {
+    cursor: pointer;
+}
+
+
+.coin img {
+    width: 30px;
+}
+
+.coin_receiver:hover .coins {
+    opacity: 1;
+    transform: translate(0,20px);
+}
+
+.return_coins_button {
+    cursor: pointer;
+    background-color: rgb(66, 73, 83);
+    width: 60px;
+    height: 15px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+}
+
